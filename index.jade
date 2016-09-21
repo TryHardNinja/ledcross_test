@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title LedCross
+        link(href='https://fonts.googleapis.com/css?family=Exo+2:200italic,200&subset=latin,cyrillic', rel='stylesheet', type='text/css')
+        link(rel='stylesheet', href='css/style.css')
+    body.page
+        header
+            include blocks/header/header.jade
+        .b-subscribe
+             include blocks/b-subscribe/subscribe/subscribe.jade
+        .b-product
+            .product
+                .product-title Модельниый ряд
+                .product-list
+                    hr.product-list__hr
+                    .product-list__row.grid.grid--no-gutter
+                        include blocks/product-item/.product-item.jade
+                        include blocks/product-item/.product-item.jade
+                        include blocks/product-item/.product-item.jade
+                    .product-list__row.grid.grid--no-gutter
+                        include blocks/product-item/.product-item.jade
+                        include blocks/product-item/.product-item.jade
+                        include blocks/product-item/.product-item.jade
+                    .product-list__row.grid.grid--no-gutter
+                        include blocks/product-item/.product-item.jade
+    script(src="blocks/header/js/overlay-video.js")
+    script(src="blocks/product-item/product-item_scale/js/product-item_scale.js.js")

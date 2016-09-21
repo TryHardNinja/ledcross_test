@@ -1,0 +1,14 @@
+.subscribe {
+  background: #464646;
+  height: 170px;
+  text-align: center; }
+
+.subscribe__title {
+  font-size: 24px;
+  padding: 20px 0px 20px 0px; }
+
+.subscribe__security {
+  font-size: 12px;
+  padding: 15px 0px 15px 0px; }
+
+/*# sourceMappingURL=subscribe.css.map */
